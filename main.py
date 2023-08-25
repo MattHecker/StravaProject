@@ -2,7 +2,7 @@ from stravalib.client import Client
 from stravalib import unithelper
 
 scope = ['read', 'profile:read_all', 'activity:read']
-access_token = 'f0f17736429d2893e3f49747cddcc36c00055ff5'
+access_token = ''
 
 client = Client(access_token=access_token)
 
